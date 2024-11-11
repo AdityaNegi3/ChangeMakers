@@ -1,0 +1,388 @@
+
+.adi{
+  margin: 0;
+  padding: 0;
+}
+.tab,
+.text {
+  position: relative;
+  line-height: 24px;
+  color: black;
+}
+.tab:hover
+{
+  color: blue;
+  
+}
+.text {
+  flex: 1;
+  line-height: 20px;
+}
+.ic-search-icon {
+  position: relative;
+  width: 20px;
+  height: 20px;
+}
+.textfield {
+  border-radius: 6px;
+  border: 1px solid var(--color-gray-100);
+  box-sizing: border-box;
+  width: 200px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 8px;
+  gap: 4px;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.5);
+}
+.changemakers,
+.navigation {
+  position: absolute;
+  margin: 0 !important;
+  top: 23px;
+}
+.navigation {
+  left: 604px;
+  background-color: var(--color-white);
+  border: 2px solid var(--color-gray-100);
+  box-sizing: border-box;
+  width: 653px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  z-index: 0;
+}
+.changemakers {
+  left: 274px;
+  font-size: 32px;
+  letter-spacing: 0.05em;
+  line-height: 36px;
+  font-family: var(--font-imprint-mt-shadow);
+  display: inline-block;
+  width: 159px;
+  height: 32px;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.whatsapp-image-2023-11-20-at-2 {
+  position: absolute;
+  margin: 0 !important;
+  top: 17px;
+  left: 222px;
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  z-index: 2;
+}
+.top-bar {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  background-color: var(--color-white);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.25);
+  height: 80px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  box-sizing: border-box;
+  gap: 20px;
+  text-align: left;
+  font-size: var(--font-size-base);
+}
+.our-goals-mob-1-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1440px;
+  height: 693px;
+  object-fit: cover;
+}
+.help-the-poor {
+  top: 89px;
+  left: 155px;
+  line-height: 70px;
+  width: 492px;
+  height: 163px;
+}
+.help-the-poor,
+.makingchange,
+.learn-more {
+  position: absolute;
+  display: inline-block;
+}
+.makingchange{
+  top: 28px;
+  left: 200px;
+  font-size: 40px;
+  line-height: 70px;
+  font-family: var(--font-reenie-beanie);
+  width: 412px;
+  height: 61px;
+}
+.learn-more {
+  top: 16px;
+  left: 37px;
+  line-height: 24px;
+  font-weight: 500;
+  width: 162px;
+  height: 43px;
+  color: white;
+}
+.learn-more-wrapper {
+  position: absolute;
+  top: 252px;
+  left: 283px;
+  border-radius: var(--br-31xl);
+  background-color: var(--color-orangered-100);
+  width: 237px;
+  height: 59px;
+  overflow: hidden;
+  font-size: var(--font-size-5xl);
+  font-family: var(--font-roboto-serif);
+}
+.help-the-poor-in-need-parent,
+.our-goals-mob-1-parent {
+  position: absolute;
+  top: 129px;
+  left: 319px;
+  width: 802px;
+  height: 435px;
+  overflow: hidden;
+}
+.our-goals-mob-1-parent {
+  top: 80px;
+  left: 0;
+  width: 1440px;
+  height: 693px;
+  font-size: 64px;
+  color: var(--color-white);
+  font-family: var(--font-ribeye);
+}
+.whatsapp-image-2023-11-20-at-21 {
+  position: absolute;
+  top: 46px;
+  left: 517px;
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+}
+.start-donating,
+.start-donating-for {
+  position: absolute;
+  line-height: 24px;
+  font-weight: 500;
+  display: inline-block;
+}
+.start-donating {
+  top: 46px;
+  left: 584px;
+  text-align: left;
+  width: 156px;
+  height: 59px;
+}
+.start-donating-for {
+  top: 121px;
+  left: 278px;
+  color: var(--color-gray-200);
+  width: 622px;
+  height: 65px;
+}
+.frame-child {
+  position: absolute;
+  top: 219px;
+  left: 486px;
+  border-radius: var(--br-31xl);
+  background-color: var(--color-orangered-100);
+  width: 239px;
+  height: 71px;
+}
+.donate {
+  position: absolute;
+  top: 240px;
+  left: 557px;
+  line-height: 24px;
+  font-weight: 500;
+  color: var(--color-white);
+  display: inline-block;
+  width: 96px;
+  height: 28px;
+  color: white;
+}
+.whatsapp-image-2023-11-20-at-2-parent {
+  position: relative;
+  top: 644px;
+  left: 131px;
+  background-color: var(--color-white);
+  box-shadow: 8px 8px 4px rgba(0, 0, 0, 0.25);
+  width: 1178px;
+  height: 397px;
+  overflow: hidden;
+  font-family: var(--font-roboto-serif);
+}
+.about-us,
+.our-mission {
+  margin: 0;
+  font-weight: 500;
+}
+.our-mission {
+  font-size: var(--font-size-23xl);
+  font-family: var(--font-roboto-serif);
+  color: var(--color-black);
+}
+.our-food-donation {
+  margin: 0;
+  font-size: var(--font-size-xl);
+  font-weight: 500;
+  color: var(--color-gray-200);
+}
+.about-us-our-container {
+  position: absolute;
+  top: 143px;
+  left: 219px;
+  line-height: 24px;
+  display: inline-block;
+  width: 408px;
+  height: 265px;
+}
+.download-1-icon {
+  position: absolute;
+  top: 127px;
+  left: 748px;
+  border-radius: 30px;
+  width: 500px;
+  height: 334.75px;
+  object-fit: cover;
+}
+.we-actively-bridge {
+  margin: 0;
+  font-weight: 500;
+  color: var(--color-gray-200);
+}
+.what-we-do-container {
+  position: absolute;
+  top: 554px;
+  left: 829px;
+  line-height: 24px;
+  display: inline-block;
+  width: 413px;
+  height: 364px;
+}
+.learn-more-container,
+.learn-more-frame {
+  position: absolute;
+  top: 937px;
+  left: 829px;
+  border-radius: var(--br-31xl);
+  background-color: var(--color-orangered-100);
+  width: 237px;
+  height: 59px;
+  overflow: hidden;
+  text-align: center;
+  color: var(--color-white);
+  font-family: var(--font-roboto-serif);
+}
+.learn-more-frame {
+  top: 432px;
+  left: 219px;
+}
+.shutterstock-129614771-1-icon {
+  position: absolute;
+  top: 574px;
+  left: 206px;
+  border-radius: var(--br-31xl);
+  width: 500px;
+  height: 333.5px;
+  object-fit: cover;
+}
+.about-us-our-mission-our-food-parent {
+  position: absolute;
+  top: 1041px;
+  left: 1px;
+  width: 1440px;
+  height: 1125px;
+  overflow: hidden;
+  text-align: left;
+  color: var(--color-orangered-100);
+}
+.title,
+.title1 {
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  line-height: 28px;
+  height: 100px;
+  flex-shrink: 0;
+}
+.title {
+  left: -0.5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 406px;
+  z-index: 0;
+}
+.title1 {
+  left: 484.5px;
+  width: 124px;
+  z-index: 1;
+}
+.container,
+.section,
+.title1,
+.title2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.title2 {
+  position: absolute;
+  margin: 0 !important;
+  top: 1px;
+  left: 788.5px;
+  line-height: 28px;
+  width: 196px;
+  height: 100px;
+  flex-shrink: 0;
+  z-index: 2;
+}
+.container,
+.section {
+  flex-direction: row;
+}
+.container {
+  width: 1119px;
+  height: 100px;
+  position: relative;
+  gap: 60px;
+}
+.section {
+  position: absolute;
+  top: 2166px;
+  left: 0;
+  background-color: rgba(229, 68, 18, 0.5);
+  width: 1440px;
+  overflow: hidden;
+  padding: 60px;
+  box-sizing: border-box;
+  font-size: var(--font-size-xl);
+}
+.desktop-12 {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 2386px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-5xl);
+  color: var(--color-black);
+  font-family: var(--font-roboto);
+}

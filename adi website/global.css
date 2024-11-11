@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-roboto: Roboto;
+  --font-roboto-serif: "Roboto Serif";
+  --font-reenie-beanie: "Reenie Beanie";
+  --font-ribeye: Ribeye;
+  --font-imprint-mt-shadow: "Imprint MT Shadow";
+
+  /* font sizes */
+  --font-size-xl: 20px;
+  --font-size-5xl: 24px;
+  --font-size-23xl: 42px;
+  --font-size-base: 16px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-orangered-100: #e54412;
+  --color-black: #000;
+  --color-gray-100: rgba(0, 0, 0, 0.1);
+  --color-gray-200: rgba(0, 0, 0, 0.6);
+
+  /* Border radiuses */
+  --br-31xl: 50px;
+}
